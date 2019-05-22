@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DUAL CHANNEL SINGLE ENDED EL84 POWER SUPPLY"
-Date "2019-05-04"
-Rev "0.1"
+Date "2019-05-19"
+Rev "0.2"
 Comp "DRAWN BY: W. SENDER"
 Comment1 "willsender@gmail.com"
 Comment2 ""
@@ -24,19 +24,19 @@ F 0 "J2" H 1730 2692 50  0000 L CNN
 F 1 "TRANSFORMER IN" H 1730 2601 50  0000 L CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_5pol" H 1650 2650 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935190.pdf" H 1650 2650 50  0001 C CNN
-F 4 "277-1580-ND" H 1650 2650 50  0001 C CNN "DIGIKEY PN"
+F 4 "277-7675-ND" H 1650 2650 50  0001 C CNN "DIGIKEY PN"
 	1    1650 2650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR01
 U 1 1 5CCDC931
-P 2650 2750
-F 0 "#PWR01" H 2650 2500 50  0001 C CNN
-F 1 "GNDA" H 2655 2577 50  0000 C CNN
-F 2 "" H 2650 2750 50  0001 C CNN
-F 3 "" H 2650 2750 50  0001 C CNN
-	1    2650 2750
+P 2650 2850
+F 0 "#PWR01" H 2650 2600 50  0001 C CNN
+F 1 "GNDA" H 2655 2677 50  0000 C CNN
+F 2 "" H 2650 2850 50  0001 C CNN
+F 3 "" H 2650 2850 50  0001 C CNN
+	1    2650 2850
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -77,7 +77,7 @@ F 0 "J1" V 4300 2200 50  0000 R CNN
 F 1 "STANDBY SWITCH" V 4200 2200 50  0000 R CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 4100 2150 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Combicon%20Compact%20Series.pdf" H 4100 2150 50  0001 C CNN
-F 4 "277-1721-ND" H 4100 2150 50  0001 C CNN "DIGIKEY PN"
+F 4 "277-6354-ND" H 4100 2150 50  0001 C CNN "DIGIKEY PN"
 	1    4100 2150
 	0    1    -1   0   
 $EndComp
@@ -93,16 +93,14 @@ Wire Wire Line
 Wire Wire Line
 	3100 2450 1850 2450
 Wire Wire Line
-	3100 2650 1850 2650
-Wire Wire Line
 	1850 2750 2450 2750
 Wire Wire Line
 	1850 2850 2350 2850
 Text Notes 2300 2450 2    50   ~ 0
 RED
-Text Notes 2300 2550 2    50   ~ 0
-RED/YEL
 Text Notes 2300 2650 2    50   ~ 0
+RED/YEL
+Text Notes 2300 2550 2    50   ~ 0
 RED
 Text Notes 2300 2750 2    50   ~ 0
 GRN
@@ -116,12 +114,12 @@ F 0 "J4" H 4000 3900 50  0000 R CNN
 F 1 "HEATER" H 4100 4200 50  0000 R CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 3950 4100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Combicon%20Compact%20Series.pdf" H 3950 4100 50  0001 C CNN
-F 4 "277-1721-ND" H 3950 4100 50  0001 C CNN "DIGIKEY PN"
+F 4 "277-6354-ND" H 3950 4100 50  0001 C CNN "DIGIKEY PN"
 	1    3950 4100
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2650 2550 1850 2550
+	2650 2650 1850 2650
 $Comp
 L Device:R_US R1
 U 1 1 5CCF18CB
@@ -159,7 +157,7 @@ F 4 "220KWCT-ND" H 4700 3000 50  0001 C CNN "DIGIKEY PN"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 2750 2650 2550
+	2650 2850 2650 2650
 Wire Wire Line
 	4450 2850 4450 2550
 Connection ~ 4450 2550
@@ -318,13 +316,13 @@ Connection ~ 6900 2550
 $Comp
 L Connector_Generic:Conn_01x05 J3
 U 1 1 5CD09EED
-P 9800 3650
-F 0 "J3" H 9718 3225 50  0000 C CNN
-F 1 "BIAS OUT" H 9718 3316 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_5pol" H 9800 3650 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935190.pdf" H 9800 3650 50  0001 C CNN
-F 4 "277-1580-ND" H 9800 3650 50  0001 C CNN "DIGIKEY PN"
-	1    9800 3650
+P 9800 3550
+F 0 "J3" H 9718 3125 50  0000 C CNN
+F 1 "BIAS OUT" H 9718 3216 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_5pol" H 9800 3550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935190.pdf" H 9800 3550 50  0001 C CNN
+F 4 "277-7675-ND" H 9800 3550 50  0001 C CNN "DIGIKEY PN"
+	1    9800 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -338,10 +336,6 @@ F 3 "" H 9500 4000 50  0001 C CNN
 	1    9500 4000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 4000 9500 3850
-Wire Wire Line
-	9500 3850 9600 3850
 Wire Wire Line
 	8050 2550 9100 2550
 Wire Wire Line
@@ -437,4 +431,14 @@ Text Label 2900 4100 0    50   ~ 0
 HEATER_N
 Text Label 3750 2550 0    50   ~ 0
 RECT
+Wire Wire Line
+	9500 3350 9600 3350
+Wire Wire Line
+	9500 3350 9500 4000
+Wire Wire Line
+	1850 2550 2700 2550
+Wire Wire Line
+	2700 2550 2700 2650
+Wire Wire Line
+	2700 2650 3100 2650
 $EndSCHEMATC

@@ -1,8 +1,8 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,DIGIKEY PN
 1,Polarized capacitor,CP,C1 C2 C3 C4,47uF/350V,CP_Radial_D16.0mm_P7.50mm,4,http://nichicon-us.com/english/products/pdfs/e-ucs.pdf,493-14944-ND
 2,Diode,D,D1 D2,UF4007,D_DO-41_SOD81_P10.16mm_Horizontal,2,http://www.vishay.com/docs/88755/uf4001.pdf,UF4007-E3/54GICT-ND
-3,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J1 J4,STANDBY SWITCH,TerminalBlock_Pheonix_PT-3.5mm_2pol,2,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Combicon%20Compact%20Series.pdf,277-1721-ND
-4,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J2 J3,TRANSFORMER IN,TerminalBlock_Pheonix_PT-3.5mm_5pol,2,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935190.pdf,277-1580-ND
+3,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J1 J4,STANDBY SWITCH,TerminalBlock_Pheonix_PT-3.5mm_2pol,2,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Combicon%20Compact%20Series.pdf,277-6354-ND
+4,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J2 J3,TRANSFORMER IN,TerminalBlock_Pheonix_PT-3.5mm_5pol,2,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935190.pdf,277-7675-ND
 5,"Resistor, US symbol",R_US,R1,100/1W,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,http://www.yageo.com/documents/recent/Yageo%20LR_FMP_2013.pdf,100WCT-ND
 6,"Resistor, US symbol",R_US,R3,10K/1W,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,http://www.yageo.com/documents/recent/Yageo%20LR_FMP_2013.pdf,10KWCT-ND
 7,"Resistor, US symbol",R_US,R2,1K/1W,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,http://www.yageo.com/documents/recent/Yageo%20LR_FMP_2013.pdf,1KWCT-ND
@@ -17,8 +17,8 @@ Component Count:,14
 Fitted Components:,14
 Number of PCBs:,1
 Total components:,14
-Schematic Version:,0.1
-Schematic Date:,2019-05-04
-BoM Date:,5/7/2019 9:29:05 PM
+Schematic Version:,0.2
+Schematic Date:,2019-05-19
+BoM Date:,5/21/2019 8:12:33 PM
 Schematic Source:,C:\Users\William\Dropbox\Engineering\Projects\Jack & Will Amp\Power Board\power_board\power_board.sch
 KiCad Version:,Eeschema (5.1.2)-1

@@ -1,4 +1,4 @@
-update=5/7/2019 9:13:56 PM
+update=5/21/2019 7:43:57 PM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=power_board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -231,7 +231,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.381
+Clearance=0.7
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
